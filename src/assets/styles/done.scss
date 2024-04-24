@@ -1,0 +1,31 @@
+.done {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  border: solid 1px var(--skin-color);
+  padding: 2rem;
+  border-radius: 2rem;
+  &__left {
+    &__hed {
+      margin: 0;
+    }
+    &__subhed {
+      margin: 0;
+      font-weight: 100;
+    }
+  }
+  &__circle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: var(--border-rounded);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange-color);
+    &__info {
+      font-size: 3rem;
+      color: var(--black-color);
+    }
+  }
+}

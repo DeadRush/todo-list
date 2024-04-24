@@ -1,0 +1,30 @@
+.task {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25rem;
+  background-color: var(--oil-color);
+  padding: 10px;
+  border-radius: 1rem;
+  border: solid 1px var(--skin-color);
+  &__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__circle {
+      width: 2rem;
+      height: 2rem;
+      border-radius: var(--border-rounded);
+      border: solid 1px var(--orange-color);
+      margin-right: 1rem;
+    }
+  }
+  &__right {
+    &__icon {
+      width: 2rem;
+      margin-left: 1rem;
+      height: 2rem;
+    }
+  }
+}

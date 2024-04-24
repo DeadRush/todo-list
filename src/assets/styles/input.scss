@@ -1,0 +1,26 @@
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  &__text {
+    background-color: var(--oil-color);
+    color: var(--skin-color);
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    padding-left: 20px;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  &__btn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: var(--border-rounded);
+    font-size: 2rem;
+    border: none;
+    font-weight: bold;
+    background-color: var(--orange-color);
+  }
+}
