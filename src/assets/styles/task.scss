@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 25rem;
+
   background-color: var(--oil-color);
   padding: 10px;
   border-radius: 1rem;
@@ -18,6 +18,19 @@
       border-radius: var(--border-rounded);
       border: solid 1px var(--orange-color);
       margin-right: 1rem;
+      &--done {
+        width: 2rem;
+        height: 2rem;
+        border-radius: var(--border-rounded);
+        margin-right: 1rem;
+        background-color: green;
+      }
+    }
+  }
+
+  &__text {
+    &--done {
+      text-decoration-line: line-through;
     }
   }
   &__right {
@@ -27,4 +40,7 @@
       height: 2rem;
     }
   }
+}
+.list {
+  list-style: none;
 }
